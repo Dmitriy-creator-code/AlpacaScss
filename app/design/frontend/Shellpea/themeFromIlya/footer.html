@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="footer.css" type="text/css" />
+    
+    <title>Document</title>
+</head>
+<body>
+    <footer>
+        <div class="container">
+            <div class="map_website">
+                <div class="list">
+                    <div class="line_hr_up"></div>
+                    <p class="accordion">ABOUT US</p>
+                    <div class="line_hr"></div>
+                    <ul class="panel">
+                        <li>History</li>
+                        <li>Distributors</li>
+                        <li>Product Reviews</li>
+                    </ul>                      
+                </div>
+                <div class="list">
+                    <div class="line_hr_up"></div>
+                    <p class="accordion">CUSTOMER SERVICE</p>
+                    <div class="line_hr"></div>
+                    <ul class="panel">
+                        <li>FAQ</li>
+                        <li>Find a Store</li>
+                        <li>Warranty</li>
+                        <li>Board Warranty Registration</li>
+                        <li>Replacement Parts</li>
+                        <li>Shipping / Returns</li>
+                        <li>Contact us</li>
+                    </ul>             
+                </div>
+                <div class="list">
+                    <div class="line_hr_up"></div>
+                    <p class="accordion">TERMS & POLICIES</p> 
+                    <div class="line_hr"></div>                  
+                    <ul class="panel">
+                        <li>Pro Program</li>
+                        <li>Privacy Policy</li>
+                        <li>Terms & Conditions</li>
+                        <li>Legal</li>
+                        <li>Accessibility</li>                
+                    </ul>
+                </div>
+                <div class="list">
+                    <div class="line_hr_up"></div>
+                    <p class="accordion">NIDECKER SA</p>
+                    <div class="line_hr"></div>
+                    <ul class="panel">
+                        <li>Place de l’Industrie 2
+                            1180 Rolle - VD
+                            Switzerland</li>                                       
+                    </ul>
+                </div>
+            </div>
+            <div class="email-social">
+                <div class="email">
+                    <p class="item_email">Sign up for news, sales and more…</p>
+                    <form action="#">
+                        <input type="text">
+                        <input type="submit" value="SUBSCRIBE">
+                    </form>
+                </div>
+                <div class="social">
+                    <ul>
+                        
+                    </ul>
+                  </div>
+            </div>
+        </div>
+    </footer> 
+    <style>    
+        ul {
+                list-style-type: none;
+                
+            }
+        .panel {
+            padding: 0;
+
+        }
+        
+        .social ul{
+            display: flex;
+            padding: 0;
+
+        }
+        
+        .social ul li {
+            padding: 15px 0;
+            background-repeat: no-repeat;
+        }
+        .facebook {            
+            background-image: url(/src/app/design/frontend/Shellpea/themeFromIlya/web/images/facebook.svg);
+        }
+        .youtube {           
+            background-image: url(/src/app/design/frontend/Shellpea/themeFromIlya/web/images/youtube.svg);
+        }
+        .instagram {        
+            background-image: url(/src/app/design/frontend/Shellpea/themeFromIlya/web/images/instagram.svg);
+        }
+    
+        @media only screen and (max-width: 767px){
+            
+            .line_hr_up {                
+                border-bottom: 1px solid orangered;
+                width: 30px;
+                margin-bottom: 1px;
+            }
+
+            
+            .panel li {
+                background-color: #eee;
+                color: #444;
+                cursor: pointer;
+                padding: 10px;
+                width: auto;                
+                border-bottom: rgb(255, 255, 255) 1px solid;
+                text-align: left;
+                outline: none;
+                font-size: 16px;
+                margin: 0;
+                width: 100%;
+            }
+            .accordion {
+                background-color: rgb(255, 255, 255);
+                color: #444;
+                cursor: pointer;
+                padding: 18px;
+                width: auto;
+                border: none;
+                text-align: left;
+                outline: none;
+                font-size: 15px;
+                transition: 0.3s;
+                margin: 0;                               
+            }
+            
+
+            .active, .accordion:hover {
+                background-color: rgb(248, 248, 248);
+            }
+
+            .accordion:after {
+                content: "\02C5";
+                color: #777;
+                font-weight: bolder;
+                float: right;
+                margin-left: 5px;
+            }
+
+            .active:after {
+                content: "\005E";
+            }
+
+            .panel {
+                margin: 0;
+                padding: 0;
+                background-color: white;
+                max-height: 0;
+                overflow: hidden;
+                transition: max-height 0.2s ease-out;
+                font-size: 14px;
+            }
+
+            
+            
+           
+       }
+       @media (min-width: 768px) {
+        .accordion {
+            margin: 0;
+            font-weight:bold;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        .panel li {
+            width: 100%;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            color: #7a7a7a;
+            padding: 2px 0;
+        }
+        .line_hr {                
+                border-bottom: 1px solid orangered;
+                width: 13%;
+                margin-bottom: 1px;
+            }
+        .map_website {
+            display: flex;
+            width: 70%;
+        }
+        .email_social {
+            width: 30%;
+        }
+        .item_email {
+            font-size: 18px;
+            font-weight: bold;
+            width: auto;
+            margin: 0 0 10px 0;
+        }
+        .container {
+            display: flex;
+        }
+        .container div {
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+        .container .email_social {
+            padding: 0;
+        }
+        form {
+            display: flex;
+        }
+        form input {
+            display: block;
+        }
+        form input:nth-child(1) {            
+            border: 0.5px black solid;
+            height: 18px;
+            width: auto;
+            margin-right: 14px;
+        }
+        form input:nth-child(2) {
+            color: white;
+            background-color: orangered;
+            font-size: 12px;
+            border-radius: 6px;
+            border-style: none;
+        }
+       }
+    </style>  
+    <script>
+        
+        fetch("https://magento.test/rest/all/V1/directory/countries")
+            .then((Response) => {
+                return Response.json();
+            })
+            .then(() => {
+              for (const el of data) {
+                console.log(el.id);
+              }
+            })
+        
+    </script> 
+</body>
+</html>
+
+
+
+
+
+
