@@ -23,7 +23,7 @@ $button__before-width                           : 100% !default;
 $button__before-position-left                   : 0 !default;
 $button__before-position-top                    : 0 !default;
 $button__before-position-bottom                 : 0 !default;
-$button__before-background                      : $color-primary !default;
+$button__before-background                      : $pink !default;
 $button__before-transform                       : scaleX(0) !default;
 $button__before-transform-origin                : 0 50% !default;
 
@@ -51,7 +51,7 @@ $button__background-disabled                    : $gray !default;
 
 // Secondary
 $button__color--secondary                       : $color-primary !default;
-$button__background--secondary                  : $pink !default;
+$button__background--secondary                  : $white !default;
 $button__border--secondary                      : 2px solid $button__color--secondary !default;
 
 // Secondary hover
