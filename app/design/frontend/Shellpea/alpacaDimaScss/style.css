@@ -1,0 +1,114 @@
+@font-face {
+    font-family: 'Harriet Display';
+    src: url(./fonts/HarrietDisplay-Regular.otf);
+}
+@font-face {
+    font-family: 'Playfair Display';
+    src: url(./fonts/PlayfairDisplayRegular.ttf);
+}
+@font-face {
+    font-family: 'Source Sans Bold';
+    src: url(./fonts/SourceSansPro-Bold.ttf);
+}
+@font-face {
+    font-family: 'Source Sans Regular';
+    src: url(./fonts/SourceSansPro-Regular.ttf);
+}
+@font-face {
+    font-family: 'Source Sans Light';
+    src: url(./fonts/SourceSansPro-Light.ttf);
+}
+@font-face {
+    font-family: 'Source Sans Semibold';
+    src: url(./fonts/SourceSansPro-SemiBold.ttf);
+}
+@font-face {
+    font-family: 'Roboto Condenced Bold';
+    src: url(./fonts/Roboto\ Condensed.ttf);
+}
+.content {
+    width: 90%;
+    margin: 0 auto;
+}
+.content-color-block {
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
+}
+.color-sample {
+    height: 123px;
+    width: auto;
+    color: #f5f5f5;
+
+}
+.sample {
+    width: 171px;
+
+}
+.sample p {
+    margin-top: 26px;
+}
+.sample:nth-child(1) {
+    margin-left: 20px;
+}
+
+.page-background {
+    background-color: #FFFFFF;
+    border: solid 3 px #f5f5f5;
+    color: black;
+}
+.backgrounds {
+    background-color: #FDF1F5;
+    color: black;
+}
+.buttons-and-icons {
+    background-color: #EF5F96;
+}
+.promo-price {
+    background-color: #D91560;
+}
+.header-color {
+    background-color: #232323;
+}
+.text-over-light {
+    background-color: #000000;
+}
+.plain-text {
+    background-color: #666666;
+}
+.dividers {
+    background-color: #f5f5f5;
+    color: #000000;
+}
+.text-color-block {
+    margin: 0;
+    text-align: center;
+    line-height: 123px;
+}
+hr {
+    margin: 0;
+}
+.content-fonts-block-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.fonts-sample {
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+
+.content-fonts-block-2 {
+}
+.row-fonts-1,
+.row-fonts-2,
+.row-fonts-3 {
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-fonts-block-2 .fonts-sample {
+    font-family: 'Roboto Condenced Bold';
+
+}
