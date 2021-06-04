@@ -6,7 +6,7 @@
 >
     
     <body>
-        
-        
+        <referenceBlock name="header.content" remove="true"/>
+        <referenceBlock name="footer.content" remove="true"/>        
     </body>
 </page>

@@ -1,0 +1,153 @@
+// Theme partials
+@import '../Amasty_Storelocator/styles/module';
+@import '../Amasty_GiftCard/styles/module';
+@import '../Magento_Ui/styles/module';
+@import '../Magento_Catalog/styles/module';
+@import '../Magento_Customer/styles/module';
+@import '../VladimirPopov_WebForms/styles/module';
+@import '../Magento_PageBuilder/styles/module';
+@import '../Magento_QuickOrder/styles/module';
+@import '../Yotpo_Yotpo/styles/module';
+@import '../Magento_Msrp/styles/module';
+@import '../PayPal_Braintree/styles/module';
+
+
+.content-color-block {
+    display: flex;
+    margin-top: 85px;
+    margin-bottom: 25px;
+    justify-content: space-evenly;
+}
+.color-sample {
+    height: 123px;
+    width: auto;
+    color: #f5f5f5;
+
+}
+.sample {
+    width: 171px;
+
+}
+.sample p {
+    margin-top: 26px;
+}
+.sample:nth-child(1) {
+    margin-left: 20px;
+}
+
+.page-background {
+    background-color: $white;    
+}
+.backgrounds {
+    background-color: $light-pink;
+}
+.buttons-and-icons {
+    background-color: $pink;
+    p {
+        color: $white; 
+    }
+    
+}
+.promo-price {
+    background-color: $red;
+    p {
+        color: $white; 
+    }
+}
+.header-color {
+    background-color: $gray-darker;
+    p {
+        color: $white; 
+    }
+}
+.text-over-light {
+    background-color: $black;
+    p {
+        color: #f5f5f5; 
+    }
+}
+.plain-text {
+    background-color: $gray-dark;
+    p {
+        color: #f5f5f5; 
+    }
+}
+.dividers {
+    background-color: $gray-light;
+}
+.text-color-block {
+    margin: 0;
+    text-align: center;
+    line-height: 123px;
+}
+hr {
+    margin: 0;
+}
+.content-fonts-block-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    h6 {
+        color: $pink;
+    }
+}
+.fonts-sample {
+    width: 40%;
+    height: auto;
+    text-align: center;
+    margin: 15px;
+    p:nth-child(1) {
+        font-weight: 500;
+    }
+    .harPink {
+        color: rgb(224, 81, 164);
+    }
+    .harrietDisplay {
+        font-family: 'Source Sans Bold';
+        letter-spacing: 0.12em;
+        font-size: 17px;        
+    }
+    .playfairDisplay {
+        font-family: 'Playfair Display';
+        font-weight: lighter;
+        letter-spacing: 0.12em;
+    }
+    .SSBold {
+        font-family: 'Source Sans Bold';
+        font-weight: bold;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+    }
+    .SSRegular {
+        font-family: 'Source Sans Regular';
+        font-weight: 400;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+    }
+    .SSLight {
+        font-family: 'Source Sans Light';
+        font-weight: 100;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+    }
+    .SSSemibold {
+        font-family: 'Source Sans Bold';
+        font-weight: 600;
+        font-size: 17px;
+        letter-spacing: 0.1em;
+    }
+    .Roboto {
+        font-family: 'Roboto Condenced Bold';
+        font-weight: bold;
+        letter-spacing: 0.1em;
+    }
+
+
+}
+
+.row-fonts-1,
+.row-fonts-2,
+.row-fonts-3 {
+    display: flex;
+    justify-content: space-around;
+}
